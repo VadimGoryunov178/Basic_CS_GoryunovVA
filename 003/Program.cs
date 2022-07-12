@@ -9,9 +9,9 @@ b=Convert.ToInt32(s);
 
 if (a>b)
 {
-    System.Console.WriteLine("a");
+    System.Console.WriteLine($"{a}");
 }
 else
 {
-    System.Console.WriteLine($"{b} ");
+    System.Console.WriteLine($"{b}");
 }
