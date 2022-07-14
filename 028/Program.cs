@@ -14,12 +14,12 @@ Console.WriteLine(k);
 
 // Метод с подпрограммой
 
-Console.WriteLine(CountDigits(45)); // Программа
+Console.WriteLine(Numbers(45)); // Программа
 
 
 
 
-int CountDigits(int N) // Подпрограмма
+int Numbers(int N) // Подпрограмма
 {
     if (N==0) return 1;
     int k=0;
