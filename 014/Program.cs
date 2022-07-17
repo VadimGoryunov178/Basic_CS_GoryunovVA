@@ -7,7 +7,7 @@ int a=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int b=Convert.ToInt32(Console.ReadLine());
 int c=a/b;
-if(c==0)
+if(c%2==0)
 {
     Console.WriteLine("Числа кратны");
 }
