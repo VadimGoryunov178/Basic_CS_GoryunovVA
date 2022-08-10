@@ -57,3 +57,5 @@ void Create2DArray2(int n,int m,out int[,] a)
     for(int i=0;i<a.GetLength(0);i++)//перебираем строки
         for(int j=0;j<a.GetLength(1);j++)//перебираем столбцы
             a[i,j]=random.Next(0,100);
+
+}
